@@ -9,13 +9,17 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = twl_ui
 TEMPLATE = app
-QMAKE_CXXFLAGS += -std=c++11
+QMAKE_CXXFLAGS +=   -std=c++11 \
+		    -std=c++1y
 
 # includes and external
-INCLUDEPATH += ./include
+INCLUDEPATH +=	./include/twlu\
+		./external/mlk/include\
+		./external/twl/include
+
 
 client{
-SOURCES	    += $$system("find ./src -name '*.cpp'")
-HEADERS	    += $$system("find ./include -name '*.h'")
-FORMS	    += $$system("find ./ui -name '*.ui'")
+SOURCES	    += $$system("find ./src/twlu -name '*.cpp'")
+HEADERS	    += $$system("find ./include/twlu -name '*.h'")
+FORMS	    += $$system("find ./ui/twlu -name '*.ui'")
 }
