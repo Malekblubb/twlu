@@ -3,8 +3,8 @@
 // See LICENSE for more information.
 //
 
-#ifndef FORMS_MAIN_WINDOW_H
-#define FORMS_MAIN_WINDOW_H
+#ifndef TWLU_FORMS_MAIN_WINDOW_H
+#define TWLU_FORMS_MAIN_WINDOW_H
 
 
 #include "ui_main_window.h"
@@ -31,4 +31,4 @@ namespace twlu
 }
 
 
-#endif // FORMS_MAIN_WINDOW_H
+#endif // TWLU_FORMS_MAIN_WINDOW_H

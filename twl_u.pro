@@ -23,3 +23,6 @@ SOURCES	    += $$system("find ./src/twlu -name '*.cpp'")
 HEADERS	    += $$system("find ./include/twlu -name '*.h'")
 FORMS	    += $$system("find ./ui/twlu -name '*.ui'")
 }
+
+HEADERS += \
+    include/twlu/global/errors.h
