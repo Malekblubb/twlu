@@ -13,7 +13,7 @@ QMAKE_CXXFLAGS +=   -std=c++11 \
 		    -std=c++1y
 
 # includes and external
-INCLUDEPATH +=	./include/twlu\
+INCLUDEPATH +=	./include/ \
 		./external/mlk/include\
 		./external/twl/include
 
