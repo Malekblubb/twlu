@@ -3,8 +3,8 @@
 // See LICENSE for more information.
 //
 
-#ifndef TWLU_ERRORS_H
-#define TWLU_ERRORS_H
+#ifndef TWLU_GLOBAL_ERRORS_H
+#define TWLU_GLOBAL_ERRORS_H
 
 
 #include <mlk/log/log.h>
@@ -54,4 +54,4 @@ namespace twlu
 }
 
 
-#endif // TWLU_ERRORS_H
+#endif // TWLU_GLOBAL_ERRORS_H

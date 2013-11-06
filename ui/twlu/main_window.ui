@@ -6,14 +6,61 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>518</width>
-    <height>361</height>
+    <width>1100</width>
+    <height>610</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Twl</string>
   </property>
-  <widget class="QWidget" name="m_wd_main"/>
+  <widget class="QWidget" name="m_wd_main">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>180</y>
+      <width>200</width>
+      <height>120</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QWidget" name="m_wd_animated_bg" native="true">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>631</width>
+      <height>351</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="m_pb_dev_console">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>580</y>
+      <width>151</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Developer console</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="m_pb_test">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>570</y>
+      <width>151</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>testbutton</string>
+    </property>
+   </widget>
+  </widget>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources/>

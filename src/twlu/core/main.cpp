@@ -3,7 +3,7 @@
 // See LICENSE for more information.
 //
 
-#include <forms/main_window.h>
+#include <twlu/forms/main_window.h>
 
 #include <QApplication>
 

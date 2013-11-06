@@ -15,8 +15,6 @@ namespace twlu
 		{
 
 		};
-
-		static config conf;
 	}
 }
 
