@@ -20,7 +20,8 @@ namespace twlu
 	{
 		enum class twlu_errors
 		{
-			cli_init_error
+			cli_init_error,
+			os_file_create_error
 		};
 
 
@@ -41,14 +42,8 @@ namespace twlu
 			error_inserter(const std::initializer_list<error_s<T>>& errors)
 			{
 				for(auto&a : errors)
-					mlk::lerr.link_error(a.m_code, a.m_msg, a.m_fnc);
+					mlk::lerr_i().link_error(a.m_code, a.m_msg, a.m_fnc);
 			}
-		};
-
-		using error_entry = error_s<twlu_errors>;
-		static error_inserter e
-		{
-			error_entry{twlu_errors::cli_init_error, "client initialisation error", []{}}
 		};
 	}
 }
