@@ -10,8 +10,6 @@
 
 int main(int argc, char *argv[])
 {
-
-
 	QApplication a(argc, argv);
 
 	twlu::main_window w;

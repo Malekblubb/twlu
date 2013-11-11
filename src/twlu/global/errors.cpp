@@ -10,11 +10,11 @@ namespace twlu
 {
 	namespace global
 	{
-		using error_entry = error_s<twlu_errors>;
+		using error_entry = error_s<twlu_err>;
 		static error_inserter e
 		{
-			error_entry{twlu_errors::cli_init_error, "client initialisation error", []{}},
-			error_entry{twlu_errors::os_file_create_error, "error while create file", []{}}
+			error_entry{twlu_err::cli_init_error, "client initialisation error", []{}},
+			error_entry{twlu_err::os_file_create_error, "error while create file", []{}}
 		};
 	}
 }

@@ -18,7 +18,7 @@ namespace twlu
 {
 	namespace global
 	{
-		enum class twlu_errors
+		enum class twlu_err
 		{
 			cli_init_error,
 			os_file_create_error

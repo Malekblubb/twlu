@@ -21,7 +21,7 @@ namespace twlu
 		m_refresh_log += [this](const std::string& last_entry){this->refresh_log(last_entry);};
 
 		// links
-		mlk::link_signal(mlk::lout().m_entry_added, m_refresh_log);
+		mlk::link_signal(mlk::lout_i().m_entry_added, m_refresh_log);
 	}
 
 	void dev_console::refresh_log(const std::string& last_entry)
